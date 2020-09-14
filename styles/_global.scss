@@ -1,0 +1,69 @@
+body {
+	min-width: 320px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #333;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+h5:hover {
+  font-size: 16px;
+  font-weight: 500;
+  color: #cc0a0a;
+}
+
+a {
+	font-weight: 400;
+  color: #cc0a0a;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.comment {
+	font-size: 13px;
+  font-weight: 400;
+  color: #888;
+}
+
+.tag {
+	font-size: 13px;
+  font-weight: 400;
+  color: #cc0a0a;
+}
+
+.tag:hover {
+  color: #ff0000;
+}
+
