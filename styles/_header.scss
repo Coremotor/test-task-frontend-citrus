@@ -1,0 +1,126 @@
+.header {
+  padding: 29px 0 26px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+
+  &__inner-row {
+    display: flex;
+    align-items: center;
+	}
+	
+  &__inner-column {
+    display: flex;
+    flex-direction: column;
+	}
+	
+  &__logo {
+    width: 70px;
+    height: 70px;
+    background-color: #cc0a0a;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-left: 18px;
+    padding-top: 7px;
+    margin-right: 28px;
+	}
+	
+  &__logo-image {
+    width: 50px;
+    height: 51px;
+    color: #ffffff;
+	}
+	
+  &__text-logo {
+    margin-right: 46px;
+	}
+	
+  &__text-logo-first-part {
+    font-size: 30px;
+    line-height: 36px;
+		font-weight: 500;
+    color: #666666;
+	}
+	
+  &__text-logo-second-part {
+    font-size: 30px;
+    line-height: 36px;
+		font-weight: 700;
+    color: #333333;
+	}
+	
+  &__text-logo-signature {
+    font-size: 13px;
+		line-height: 34px;
+    color: #666666;
+	}
+	
+  &__wrapper-phone {
+    padding-left: 30px;
+		border-left: 2px solid #cc0a0a;
+		margin-right: auto;
+	}
+	
+  &__link-phone {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333333;
+	}
+	
+  &__link-order-call {
+    font-size: 13px;
+    text-decoration: underline;
+		text-transform: none;
+		line-height: 25px;
+		color: #cc0000;
+		background-image: url(../img/header_icon_phone.png);
+    background-position: left;
+		background-repeat: no-repeat;
+		padding-left: 26px;
+	}
+	
+  &__navigation-menu {
+    margin-right: 60px;
+	}
+	
+  &__navigation-list {
+    display: flex;
+	}
+	
+  &__navigation-link {
+    display: flex;
+    align-items: center;
+	}
+	
+  &__navigation-item:not(:last-child) {
+		margin-right: 66px;
+	}
+
+	&__navigation-item-title {
+    background-image: url(../img/header_icon_arrow.png);
+    background-position: right;
+    background-repeat: no-repeat;
+		padding-right: 25px;
+	}
+
+  &__burger {
+		width: 17px;
+		height: 15px;
+		background-image: url(../img/header_icon_burger.png);
+    background-position: center;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		border: none;
+		margin-right: 82px;
+	}
+
+	&__search {
+		width: 19px;
+		height: 20px;
+		background-image: url(../img/header_icon_search.png);
+    background-position: center;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		border: none;
+	}
+}

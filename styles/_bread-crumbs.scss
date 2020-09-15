@@ -1,0 +1,23 @@
+.bread-crumbs {
+  margin-top: 10px;
+  padding: 17px 0 78px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #888;
+  }
+
+  
+
+  &__item:last-child {
+      text-decoration: none;
+      color: #666;
+  }
+}
