@@ -1,23 +1,33 @@
 .bread-crumbs {
   margin-top: 10px;
-  padding: 17px 0 78px;
+  padding: 12px 0 58px;
 
   &__list {
     display: flex;
   }
 
-  &__item {
+  &__item {    
     font-size: 13px;
     line-height: 19px;
     font-weight: 400;
-    text-decoration: underline;
     color: #888;
+  }  
+
+  &__link {
+    display: inline-block;
+    color: #888;
+    border-bottom: 1px solid #888;
   }
 
-  
-
-  &__item:last-child {
-      text-decoration: none;
+  &__item:last-child > a {
+      border-bottom: none;
       color: #666;
+  }
+
+  &__item:not(:last-child)::after {
+    content: "-";
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 11px;
   }
 }

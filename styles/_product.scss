@@ -1,0 +1,142 @@
+.product {
+  &__slider {
+    width: 12.8%;
+    align-items: center;
+    border: 1px solid #e1e1e1;
+    padding: 22px 0;
+  }
+
+  &__title {
+    margin-left: -5px;
+    margin-bottom: 42px;
+  }
+
+  &__btn-up {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: none;
+    background-color: $arrowBtnBg;
+    background-image: url(../img/product_arrow_no_active.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 31px;
+  }
+
+  &__slider-list {
+    align-items: center;
+  }
+
+  &__slider-item:first-child {
+    margin-bottom: 30px;
+  }
+
+  &__slider-item:nth-child(2) {
+    margin-bottom: 41px;
+  }
+
+  &__slider-item:last-child {
+    margin-bottom: 73px;
+  }
+
+  &__btn-down {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: none;
+    background-color: $arrowBtnBg;
+    background-image: url(../img/product_arrow_active.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__preview {
+    width: 48.2%;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 89px 183px 145px 175px;
+  }
+
+  &__preview-price-spec {
+    width: 39%;
+    background-color: #f2f2f2;
+    padding: 75px 100px 75px 100px;
+  }
+
+  &__preview-price {
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 54px;
+    margin-bottom: 46px;
+  }
+
+  &__price {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-left: 29px;
+  }
+
+  &__price-text {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+
+  &__price-count {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -2px;
+  }
+
+  &__btn-order {
+    justify-self: start;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: $mainRed;
+    border: none;
+    border-radius: 25px;
+    padding: 13px 37px;
+  }
+
+  &__btn-order:hover {
+    background-color: $secondRed;
+  }
+
+  &__availability {
+    margin-left: -1px;
+    margin-bottom: 16px;
+  }
+
+  &__availability-marker {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: $green;
+    border-radius: 50%;
+    margin-right: 7px;
+  }
+
+  &__availability-text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__preview-spec-table-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: start;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+
+  &__preview-spec-table-row {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+  }
+}
