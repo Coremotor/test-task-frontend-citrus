@@ -1,0 +1,170 @@
+.about-product {
+	&__title {
+		height: 0;
+		visibility: hidden;
+	}
+
+  &__navigation {
+    margin-bottom: 55px;
+  }
+
+  &__navigation-list {
+    margin-left: -1px;
+  }
+
+  &__navigation-border {
+    border-bottom: 2px solid #cccccc;
+    margin-top: 5px;
+  }
+
+  &__navigation-item:first-child {
+    margin-right: 42px;
+  }
+
+  &__navigation-item:nth-child(2) {
+    margin-right: 51px;
+  }
+
+  &__navigation-link {
+    color: #888888;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+  }
+
+  &__active-link {
+    color: #000;
+    border-bottom: 2px solid $mainRed;
+  }
+
+  &__desc-spec-left {
+    max-width: 56%;
+  }
+
+  &__desc-spec-article {
+    margin-bottom: 47px;
+  }
+
+  &__desc-spec-title {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-left: -2px;
+    margin-bottom: 14px;
+  }
+
+  &__desc-spec-text {
+    line-height: 25px;
+  }
+
+  &__desc-spec-title-second {
+    margin-top: 22px;
+    margin-bottom: 4px;
+  }
+
+  &__desc-spec-list {
+    padding-left: 10px;
+    margin-bottom: 22px;
+  }
+
+  &__desc-spec-item {
+    line-height: 30px;
+  }
+
+  &__desc-spec-item:nth-child(5) {
+    line-height: normal;
+    margin: 5px 0 7px;
+  }
+
+  &__desc-spec-item::before {
+    content: "-";
+    margin-right: 4px;
+    margin-left: -10px;
+  }
+
+  &__desc-spec-img {
+    margin: 37px 0 36px -8px;
+  }
+
+  &__doc-title {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-left: -2px;
+    margin-bottom: 16px;
+  }
+
+  &__doc-link {
+    line-height: 50px;
+    text-decoration: underline;
+    color: $mainRed;
+    margin-right: 8px;
+  }
+
+  &__doc-img {
+    width: 40px;
+    height: 40px;
+    padding: 5px 8px;
+    margin-right: 9px;
+  }
+
+  &__doc-img_pdf {
+    background-color: $mainRed;
+  }
+
+  &__doc-img_doc {
+    background-color: $blue;
+  }
+
+  &__desc-spec-right {
+    flex-grow: 1;
+    max-width: 44%;
+    padding-left: 77px;
+  }
+
+  &__table {
+    width: 100%;
+    line-height: 37px;
+    color: #666666;
+  }
+
+  &__table:first-child {
+    margin-bottom: 68px;
+  }
+
+  &__table > tr,
+  td {
+    border: 1px solid #888;
+  }
+
+  &__table td {
+    padding-left: 20px;
+  }
+
+  &__table_spec td:last-child {
+    padding-right: 49px;
+	}
+
+	&__table_params td:last-child {
+    padding-right: 29px;
+  }
+
+  &__table tr:nth-child(even) {
+    background-color: grey;
+  }
+
+  &__table-title {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+
+  &__table-link {
+    color: $mainRed;
+    text-decoration: underline;
+  }
+}

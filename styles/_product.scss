@@ -1,12 +1,11 @@
 .product {
-  margin-bottom: 88px;
+  margin-bottom: 73px;
 
   &__slider {
     width: 12.8%;
     align-items: center;
     border: 1px solid #e1e1e1;
     padding: 22px 0;
-    // margin-bottom: 88px;
   }
 
   &__title {
@@ -54,14 +53,14 @@
   }
 
   &__preview {
-    width: 48.2%;
+    max-width: 48.2%;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
     padding: 89px 183px 145px 175px;
   }
 
   &__preview-price-spec {
-    width: 39%;
+    max-width: 39%;
     background-color: #f2f2f2;
     padding: 75px 100px 75px;
   }
