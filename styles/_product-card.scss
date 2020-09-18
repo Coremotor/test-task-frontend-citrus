@@ -1,0 +1,54 @@
+.product-card {
+  width: 290px;
+  align-items: center;
+  line-height: 25px;
+  font-weight: 500;
+  border: 1px solid $borderTable;
+  background-color: #fff;
+  padding-bottom: 43px;
+
+  &__img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 25px;
+    margin-bottom: 24px;
+  }
+
+  &__price-wrapper {
+		font-weight: 700;
+  }
+
+  &__prev-price {
+    font-size: 20px;
+    color: #666666;
+    padding: 0 8px;
+  }
+
+  &__line {
+    display: block;
+    border-bottom: 1px solid grey;
+    margin-top: -14px;
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  &__start-price {
+    margin-right: 5px;
+  }
+
+  &__current-price {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+
+  &__price-currency {
+    margin-right: 5px;
+  }
+}

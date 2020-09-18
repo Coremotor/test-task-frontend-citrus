@@ -1,4 +1,6 @@
 .about-product {
+  margin-bottom: 126px;
+  
 	&__title {
 		height: 0;
 		visibility: hidden;
@@ -136,7 +138,7 @@
 
   &__table > tr,
   td {
-    border: 1px solid #888;
+    border: 1px solid $borderTable;
   }
 
   &__table td {
@@ -152,7 +154,7 @@
   }
 
   &__table tr:nth-child(even) {
-    background-color: grey;
+    background-color: $bgTable;
   }
 
   &__table-title {

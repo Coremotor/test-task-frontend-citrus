@@ -4,7 +4,7 @@
   &__slider {
     width: 12.8%;
     align-items: center;
-    border: 1px solid #e1e1e1;
+    border: 1px solid $borderTable;
     padding: 22px 0;
   }
 
@@ -54,14 +54,14 @@
 
   &__preview {
     max-width: 48.2%;
-    border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid $borderTable;
+    border-bottom: 1px solid $borderTable;
     padding: 89px 183px 145px 175px;
   }
 
   &__preview-price-spec {
     max-width: 39%;
-    background-color: #f2f2f2;
+    background-color: $bgTable;
     padding: 75px 100px 75px;
   }
 

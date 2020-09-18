@@ -1,0 +1,38 @@
+.recommendation {
+	background-color: $bgTable;
+	padding: 106px 0 192px;
+	
+	&__wrapper {
+		margin-bottom: 44px;
+	}
+
+  &__title {
+		margin-left: -4px;
+		margin-right: auto;
+	}
+	
+	&__btn {
+		width: 51px;
+		height: 51px;
+		border: none;
+		border-radius: 50%;
+		background-color: #fff;
+		background-image: url(../img/recommendation__arrow_no_active.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: 10px;
+	}
+
+	&__btn_left {
+		background-image: url(../img/recommendation__arrow_no_active.png);
+		margin-right: 19px;
+	}
+
+	&__btn_right {
+		background-image: url(../img/recommendation__arrow_active.png);
+	}
+
+	&__slider {
+		justify-content: space-between;
+	}
+}
