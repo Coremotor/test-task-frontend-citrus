@@ -1,0 +1,137 @@
+.footer {
+  &__inner {
+    padding: 0 120px 70px;
+  }
+
+  &__navigation {
+    font-size: 18px;
+    font-weight: 600;
+    color: $secondText;
+  }
+
+  &__navigation_first {
+    margin-right: 232px;
+  }
+
+  &__navigation_second {
+    margin-right: 205px;
+  }
+
+  &__navigation-link {
+    color: $secondText;
+  }
+
+  &__navigation-item:not(:last-child) {
+    margin-bottom: 23px;
+  }
+
+  &__contacts {
+    margin-right: 110px;
+  }
+
+  &__contacts-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: $secondText;
+    margin-bottom: 14px;
+  }
+
+  &__contacts-item:not(:last-child) {
+    margin-bottom: 6px;
+  }
+
+  &__contacts-link {
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+  }
+
+  &__contacts-link_phone {
+    font-size: 18px;
+    font-weight: 400;
+    color: $secondText;
+    background-image: url(../img/footer_phone_icon.png);
+  }
+
+  &__contacts-link_email {
+    font-size: 13px;
+    color: $mainRed;
+    background-image: url(../img/footer_email_icon.png);
+  }
+
+  &__contacts-link_address {
+    font-size: 13px;
+    color: $secondText;
+    background-image: url(../img/footer_address_icon.png);
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  &__about-site {
+    width: 18%;
+    font-size: 13px;
+    line-height: 22px;
+    color: #888888;
+    margin-right: 71px;
+  }
+
+  &__about-site-copyright {
+    margin-bottom: 16px;
+  }
+
+  &__about-site-privacy {
+    display: block;
+    color: #888888;
+    margin-bottom: 21px;
+  }
+
+  &__social-networks-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &__social-networks-link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+
+  &__social-networks-link_fb {
+    background-image: url(../img/footer_fb_icon.png);
+  }
+
+  &__social-networks-link_fb:hover {
+    background-color: #5959d8;
+  }
+
+  &__social-networks-link_fb:active {
+    background-color: #4040b3;
+  }
+
+  &__social-networks-link_vk {
+    background-image: url(../img/footer_vk_icon.png);
+  }
+
+  &__social-networks-link_vk:hover {
+    background-color: #628dd3;
+  }
+
+  &__social-networks-link_vk:active {
+    background-color: #3768b9;
+  }
+
+  &__social-networks-link_insta {
+    background-image: url(../img/footer_insta_icon.png);
+  }
+
+  &__social-networks-link_insta:hover {
+    background-color: #af35d2;
+  }
+
+  &__social-networks-link_insta:active {
+    background-color: #7e47b7;
+  }
+}

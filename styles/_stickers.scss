@@ -1,4 +1,47 @@
+.sticker {
+  display: inline-flex;
+  position: absolute; 
 
-.tre {
-    border: 20px solid transparent; border-left: 20px solid green;
+  &__text-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 11px;
+  }
+
+  &__text-wrapper_sale {
+    background-color: #cc0a0a;
+    padding-right: 6px;
+  }
+
+  &__text-wrapper_hit {
+    background-color: #ff9900;
+  }
+
+  &__text-wrapper_new {
+    background-color: #0fa3c6;
+  }
+
+  &__text {    
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__triangle {
+    border: 12px solid transparent;
+  }
+
+  &__triangle_sale {
+    border-left: 8px solid #cc0a0a;
+  }
+
+  &__triangle_hit {
+    border-left: 8px solid#ff9900;
+  }
+
+  &__triangle_new {
+    border-left: 8px solid #0fa3c6;
+  }  
 }

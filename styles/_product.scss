@@ -14,15 +14,17 @@
   }
 
   &__btn-up {
-    width: 51px;
-    height: 51px;
-    border-radius: 50%;
-    border: none;
-    background-color: $arrowBtnBg;
-    background-image: url(../img/product_arrow_no_active.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    transform: rotate(90deg);
+    background-color: #f5f5f5;
     margin-bottom: 31px;
+  }
+
+  &__btn-up:hover {
+    transform: rotate(-90deg);
+  }
+
+  &__btn-up:active {
+    transform: rotate(-90deg);
   }
 
   &__slider-list {
@@ -42,14 +44,8 @@
   }
 
   &__btn-down {
-    width: 51px;
-    height: 51px;
-    border-radius: 50%;
-    border: none;
-    background-color: $arrowBtnBg;
-    background-image: url(../img/product_arrow_active.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    transform: rotate(90deg);
+    background-color: #f5f5f5;
   }
 
   &__preview {
@@ -128,6 +124,10 @@
     font-weight: 500;
   }
 
+  &__preview {
+    position: relative;
+  }
+
   &__preview-spec-title {
     font-size: 16px;
     font-weight: 600;
@@ -162,5 +162,20 @@
     font-weight: 400;
     text-decoration: underline;
     color: $mainRed;
+  }
+
+  &__preview-sticker-new {
+    top: 20px;
+    left: 0;
+  }
+
+  &__preview-sticker-sale {
+    top: 54px;
+    left: 0;
+  }
+
+  &__preview-sticker-hit {
+    top: 88px;
+    left: 0;
   }
 }

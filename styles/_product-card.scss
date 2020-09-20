@@ -1,4 +1,5 @@
 .product-card {
+  position: relative;
   width: 290px;
   align-items: center;
   line-height: 25px;
@@ -22,7 +23,7 @@
   }
 
   &__price-wrapper {
-		font-weight: 700;
+    font-weight: 700;
   }
 
   &__prev-price {
@@ -50,5 +51,20 @@
 
   &__price-currency {
     margin-right: 5px;
+  }
+
+  &__sticker-sale {
+    top: 18px;
+    left: 0;
+  }
+
+  &__sticker-hit {
+    top: 18px;
+    left: 0;
+  }
+
+  &__sticker-new {
+    top: 18px;
+    left: 0;
   }
 }
