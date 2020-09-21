@@ -6,6 +6,10 @@
       padding-left: 30px;
       padding-right: 30px;
     }
+
+    @media (max-width: 1024px) {
+      flex-wrap: wrap;
+    }
   }
 
   &__navigation {
@@ -20,6 +24,10 @@
     @media (max-width: 1280px) {
       margin-right: 202px;
     }
+
+    @media (max-width: 1024px) {
+      margin-right: 127px;
+    }
   }
 
   &__navigation_second {
@@ -27,6 +35,10 @@
 
     @media (max-width: 1280px) {
       margin-right: 182px;
+    }
+
+    @media (max-width: 1024px) {
+      margin-right: 111px;
     }
   }
 
@@ -43,6 +55,10 @@
 
     @media (max-width: 1280px) {
       margin-right: 118px;
+    }
+
+    @media (max-width: 1024px) {
+      margin-right: 68px;
     }
   }
 
@@ -91,6 +107,10 @@
     color: #888888;
     margin-right: auto;
 
+    @media (max-width: 1024px) {
+      width: 23%;
+      margin-right: 0;
+    }
   }
 
   &__about-site-copyright {

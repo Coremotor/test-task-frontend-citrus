@@ -1,4 +1,6 @@
 .discount {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: $mainRed;
   padding: 45px 120px;
@@ -10,18 +12,34 @@
     padding-right: 60px;
   }
 
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    padding: 26px 0;
+    margin-top: -80px;
+    margin-bottom: 44px;
+  }
+
   &__title {
     font-size: 30px;
     line-height: 30px;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 10px;
+
+    @media (max-width: 1024px) {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
   }
 
   &__text {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 
   &__btn {

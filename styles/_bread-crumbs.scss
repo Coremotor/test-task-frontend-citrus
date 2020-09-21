@@ -6,6 +6,10 @@
     padding-top: 16px;
   }
 
+  @media (max-width: 1024px) {
+    padding-bottom: 60px;
+  }
+
   &__list {
     display: flex;
   }

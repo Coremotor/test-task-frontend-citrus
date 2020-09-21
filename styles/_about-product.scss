@@ -5,6 +5,10 @@
     margin-bottom: 113px;
   }
 
+  @media (max-width: 1024px) {
+    margin-bottom: 87px;
+  }
+
   &__title {
     height: 0;
     visibility: hidden;
@@ -12,6 +16,10 @@
 
   &__navigation {
     margin-bottom: 55px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 45px;
+    }
   }
 
   &__navigation-list {
@@ -45,8 +53,21 @@
     border-bottom: 2px solid $mainRed;
   }
 
+  &__desc-spec {
+    display: flex;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      margin-bottom: 58px;
+    }
+  }
+
   &__desc-spec-left {
     max-width: 57%;
+
+    @media (max-width: 1024px) {
+      max-width: 100%;
+    }
   }
 
   &__desc-spec-article {
@@ -54,6 +75,10 @@
 
     @media (max-width: 1280px) {
       margin-bottom: 58px;
+    }
+
+    @media (max-width: 1024px) {
+      margin-bottom: 54px;
     }
   }
 
@@ -100,6 +125,10 @@
     @media (max-width: 1280px) {
       margin-top: 85px;
     }
+
+    @media (max-width: 1024px) {
+      margin-top: 27px;
+    }
   }
 
   &__doc-title {
@@ -133,6 +162,8 @@
   }
 
   &__desc-spec-right {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     max-width: 43%;
     padding-left: 77px;
@@ -140,12 +171,22 @@
     @media (max-width: 1280px) {
       padding-left: 53px;
     }
+
+    @media (max-width: 1024px) {
+      flex-direction: row;
+      max-width: 100%;
+      padding-left: 0;
+    }
   }
 
   &__table {
     width: 100%;
     line-height: 37px;
     color: #666666;
+
+    @media (max-width: 1024px) {
+      width: auto;
+    }
   }
 
   &__table:first-child {
@@ -153,6 +194,11 @@
 
     @media (max-width: 1280px) {
       margin-bottom: 48px;
+    }
+
+    @media (max-width: 1024px) {
+      max-width: 48%;
+      margin-bottom: 0;
     }
   }
 
@@ -170,6 +216,16 @@
       padding-top: 10px;
       padding-bottom: 10px;
     }
+
+    @media (max-width: 1024px) {
+      width: 58%;
+    }
+  }
+
+  &__table_spec {
+    @media (max-width: 1280px) {
+      margin-right: 41px;
+    }
   }
 
   &__table_spec td:last-child {
@@ -178,6 +234,16 @@
     @media (max-width: 1280px) {
       width: 57%;
       padding-right: 45px;
+    }
+
+    @media (max-width: 1024px) {
+      padding-right: 30px;
+    }
+  }
+
+  &__table_params {
+    @media (max-width: 1024px) {
+      flex-grow: 1;
     }
   }
 

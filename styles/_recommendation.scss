@@ -2,8 +2,17 @@
   background-color: $bgTable;
   padding: 106px 0 192px;
 
+  @media (max-width: 1024px) {
+    padding-top: 88px;
+    padding-bottom: 176px;
+  }
+
   &__wrapper {
     margin-bottom: 44px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 37px;
+    }
   }
 
   &__title {
@@ -14,6 +23,10 @@
   &__btn {
     background-color: #fff;
     margin-top: 10px;
+
+    @media (max-width: 1024px) {
+      margin-top: 0;
+    }
   }
 
   &__btn_left {
@@ -34,6 +47,12 @@
 
   &__product-card:last-child {
     @media (max-width: 1280px) {
+      display: none;
+    }    
+  }
+
+  &__product-card:nth-last-child(2) {
+    @media (max-width: 1024px) {
       display: none;
     }
   }

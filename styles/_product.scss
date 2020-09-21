@@ -1,6 +1,10 @@
 .product {
   margin-bottom: 73px;
 
+  @media (max-width: 1024px) {
+    margin-bottom: 35px;
+  }
+
   &__slider {
     width: 12.8%;
     align-items: center;
@@ -11,12 +15,20 @@
   &__title {
     margin-left: -5px;
     margin-bottom: 42px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 35px;
+    }
   }
 
   &__btn-up {
     transform: rotate(90deg);
     background-color: #f5f5f5;
     margin-bottom: 31px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__btn-up:hover {
@@ -33,6 +45,10 @@
 
   &__slider-item:first-child {
     margin-bottom: 30px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__slider-item:nth-child(2) {
@@ -41,6 +57,10 @@
 
   &__slider-item:last-child {
     margin-bottom: 73px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 161px;
+    }
   }
 
   &__btn-down {
@@ -56,6 +76,10 @@
     border-top: 1px solid $borderTable;
     border-bottom: 1px solid $borderTable;
     padding-bottom: 60px;
+
+    @media (max-width: 1024px) {
+      width: 43.2%;
+    }
   }
 
   &__preview-price-spec {
@@ -67,6 +91,12 @@
       padding-left: 64px;
       padding-right: 0;
     }
+
+    @media (max-width: 1024px) {
+      max-width: 44%;
+      padding-left: 41px;
+      padding-right: 31px;
+    }
   }
 
   &__preview-price {
@@ -77,6 +107,9 @@
     border-bottom: 1px solid #cccccc;
     padding-bottom: 54px;
     margin-bottom: 46px;
+
+    @media (max-width: 1024px) {
+    }
   }
 
   &__price {
@@ -95,6 +128,10 @@
     font-size: 14px;
     font-weight: 500;
     margin-left: -2px;
+
+    @media (max-width: 1024px) {
+      padding-left: 30px;
+    }
   }
 
   &__btn-order {
@@ -116,6 +153,10 @@
   &__availability {
     margin-left: -1px;
     margin-bottom: 16px;
+
+    @media (max-width: 1024px) {
+      padding-left: 30px;
+    }
   }
 
   &__availability-marker {
@@ -157,6 +198,10 @@
     white-space: nowrap;
     color: #666666;
     margin-bottom: 9px;
+
+    @media (max-width: 1024px) {
+      padding-right: 206px;
+    }
   }
 
   &__preview-spec-table-cell-second {
