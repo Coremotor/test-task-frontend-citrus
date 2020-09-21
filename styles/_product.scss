@@ -49,16 +49,24 @@
   }
 
   &__preview {
-    max-width: 48.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48.2%;
     border-top: 1px solid $borderTable;
     border-bottom: 1px solid $borderTable;
-    padding: 89px 183px 145px 175px;
+    padding-bottom: 60px;
   }
 
   &__preview-price-spec {
     max-width: 39%;
     background-color: $bgTable;
     padding: 75px 100px 75px;
+
+    @media (max-width: 1280px) {
+      padding-left: 64px;
+      padding-right: 0;
+    }
   }
 
   &__preview-price {

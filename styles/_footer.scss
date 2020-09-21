@@ -1,6 +1,11 @@
 .footer {
   &__inner {
-    padding: 0 120px 70px;
+    padding: 0 135px 70px;
+
+    @media (max-width: 1280px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
   }
 
   &__navigation {
@@ -11,10 +16,18 @@
 
   &__navigation_first {
     margin-right: 232px;
+
+    @media (max-width: 1280px) {
+      margin-right: 202px;
+    }
   }
 
   &__navigation_second {
     margin-right: 205px;
+
+    @media (max-width: 1280px) {
+      margin-right: 182px;
+    }
   }
 
   &__navigation-link {
@@ -27,6 +40,10 @@
 
   &__contacts {
     margin-right: 110px;
+
+    @media (max-width: 1280px) {
+      margin-right: 118px;
+    }
   }
 
   &__contacts-title {
@@ -72,7 +89,8 @@
     font-size: 13px;
     line-height: 22px;
     color: #888888;
-    margin-right: 71px;
+    margin-right: auto;
+
   }
 
   &__about-site-copyright {

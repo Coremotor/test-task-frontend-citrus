@@ -31,4 +31,10 @@
   &__slider {
     justify-content: space-between;
   }
+
+  &__product-card:last-child {
+    @media (max-width: 1280px) {
+      display: none;
+    }
+  }
 }
