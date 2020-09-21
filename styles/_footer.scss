@@ -9,6 +9,7 @@
 
     @media (max-width: 1024px) {
       flex-wrap: wrap;
+      padding-bottom: 35px;
     }
   }
 
@@ -123,8 +124,27 @@
     margin-bottom: 21px;
   }
 
+  &__social-networks {
+    @media (max-width: 1024px) {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 45px;
+    }
+  }
+
   &__social-networks-item:not(:last-child) {
     margin-bottom: 10px;
+
+    @media (max-width: 1024px) {
+      margin-right: 10px;
+    }
+  }
+
+  &__social-networks-list {
+    @media (max-width: 1024px) {
+      display: flex;
+    }
   }
 
   &__social-networks-link {
