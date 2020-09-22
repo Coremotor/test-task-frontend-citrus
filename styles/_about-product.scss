@@ -9,6 +9,10 @@
     margin-bottom: 87px;
   }
 
+  @media (max-width: 768px) {
+    margin-bottom: 75px;
+  }
+
   &__title {
     height: 0;
     visibility: hidden;
@@ -19,6 +23,10 @@
 
     @media (max-width: 1024px) {
       margin-bottom: 45px;
+    }
+
+    @media (max-width: 768px) {
+      margin-bottom: 35px;
     }
   }
 
@@ -37,6 +45,10 @@
 
   &__navigation-item:nth-child(2) {
     margin-right: 51px;
+
+    @media (max-width: 768px) {
+      margin-right: 46px;
+    }
   }
 
   &__navigation-link {
@@ -60,6 +72,10 @@
       flex-direction: column;
       margin-bottom: 58px;
     }
+
+    @media (max-width: 768px) {
+      margin-bottom: 46px;
+    }
   }
 
   &__desc-spec-left {
@@ -79,6 +95,10 @@
 
     @media (max-width: 1024px) {
       margin-bottom: 54px;
+    }
+
+    @media (max-width: 768px) {
+      margin-bottom: 42px;
     }
   }
 
@@ -129,6 +149,10 @@
     @media (max-width: 1024px) {
       margin-top: 27px;
     }
+
+    @media (max-width: 768px) {
+      margin: 20px auto 13px;
+    }
   }
 
   &__doc-title {
@@ -177,6 +201,10 @@
       max-width: 100%;
       padding-left: 0;
     }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 
   &__table {
@@ -200,6 +228,12 @@
       max-width: 48%;
       margin-bottom: 0;
     }
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 47px;
+    }
   }
 
   &__table > tr,
@@ -219,6 +253,10 @@
 
     @media (max-width: 1024px) {
       width: 58%;
+    }
+
+    @media (max-width: 768px) {
+      width: 50%;
     }
   }
 

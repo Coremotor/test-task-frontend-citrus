@@ -91,16 +91,44 @@
         <div class="container">
           <h1 class="product__title">Шкив однорядный JSS-0.5T JET 303103</h1>
 
-          <div class="inner-row">
-            <div class="product__slider inner-column">
+          <div class="product__inner">
+            <div class="product__slider product__slider-inner">
+              <div class="sticker product__slider-sticker-new">
+                <div class="sticker__text-wrapper sticker__text-wrapper_new">
+                  <span class="sticker__text">НОВИНКА</span>
+                </div>
+
+                <div class="sticker__triangle sticker__triangle_new"></div>
+              </div>
+
+              <div class="sticker product__slider-sticker-sale">
+                <div class="sticker__text-wrapper sticker__text-wrapper_sale">
+                  <span class="sticker__text">РАСПРОДАЖА</span>
+                </div>
+
+                <div class="sticker__triangle sticker__triangle_sale"></div>
+              </div>
+
+              <div class="sticker product__slider-sticker-hit">
+                <div class="sticker__text-wrapper sticker__text-wrapper_hit">
+                  <span class="sticker__text">ХИТ ПРОДАЖ</span>
+                </div>
+
+                <div class="sticker__triangle sticker__triangle_hit"></div>
+              </div>
+
               <button
                 class="btn product__btn-up"
                 aria-label="Кнопка перемотки вверх"
               ></button>
 
-              <ul class="product__slider-list inner-column">
+              <ul class="product__slider-list product__slider-inner">
                 <li class="product__slider-item">
                   <picture class="product__slider-item-img">
+                    <source
+                      media="(max-width: 768px)"
+                      srcset="./img/product_item_img_1_768.jpg"
+                    />
                     <source
                       media="(max-width: 1024px)"
                       srcset="./img/product_item_img_1_1024.jpg"
@@ -180,7 +208,9 @@
               </picture>
             </div>
 
-            <div class="product__preview-price-spec inner-column">
+            <div
+              class="product__preview-price-spec product__preview-price-spec-inner"
+            >
               <div class="product__preview-price">
                 <span class="product__price"
                   >600<span class="product__price-text">руб.</span></span
@@ -255,6 +285,7 @@
         <h3 class="about-product__title">
           Описание товара, характеристики и условя доставки
         </h3>
+
         <nav class="container about-product__navigation">
           <ul class="about-product__navigation-list inner-row">
             <li class="about-product__navigation-item">
@@ -485,10 +516,16 @@
           </div>
 
           <div class="product-card__img-wrapper">
-            <img
-              src="./img/product_card_img_1.jpg"
-              alt="Изображение рекомендованного продукта"
-            />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="./img/product_card_img_1_768.jpg"
+              />
+              <img
+                src="./img/product_card_img_1.jpg"
+                alt="Изображение рекомендованного продукта"
+              />
+            </picture>
           </div>
 
           <h5 class="product-card__title">
@@ -517,10 +554,16 @@
           </div>
 
           <div class="product-card__img-wrapper">
-            <img
-              src="./img/product_card_img_2.jpg"
-              alt="Изображение рекомендованного продукта"
-            />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="./img/product_card_img_2_768.jpg"
+              />
+              <img
+                src="./img/product_card_img_2.jpg"
+                alt="Изображение рекомендованного продукта"
+              />
+            </picture>
           </div>
 
           <h5 class="product-card__title">
@@ -543,10 +586,16 @@
           </div>
 
           <div class="product-card__img-wrapper">
-            <img
-              src="./img/product_card_img_3.jpg"
-              alt="Изображение рекомендованного продукта"
-            />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="./img/product_card_img_3_768.jpg"
+              />
+              <img
+                src="./img/product_card_img_3.jpg"
+                alt="Изображение рекомендованного продукта"
+              />
+            </picture>
           </div>
 
           <h5 class="product-card__title">Металлический шкаф PW-&nbsp;80.1</h5>

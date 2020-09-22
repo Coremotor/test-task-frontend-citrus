@@ -29,6 +29,10 @@
     @media (max-width: 1024px) {
       margin-right: 127px;
     }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   &__navigation_second {
@@ -40,6 +44,10 @@
 
     @media (max-width: 1024px) {
       margin-right: 111px;
+    }
+
+    @media (max-width: 768px) {
+      display: none;
     }
   }
 
@@ -60,6 +68,10 @@
 
     @media (max-width: 1024px) {
       margin-right: 68px;
+    }
+
+    @media (max-width: 768px) {
+      margin-right: 158px;
     }
   }
 
@@ -112,6 +124,10 @@
       width: 23%;
       margin-right: 0;
     }
+
+    @media (max-width: 768px) {
+      width: 32%;
+    }
   }
 
   &__about-site-copyright {
@@ -130,6 +146,10 @@
       display: flex;
       justify-content: center;
       padding-top: 45px;
+    }
+
+    @media (max-width: 768px) {
+      padding-top: 48px;
     }
   }
 

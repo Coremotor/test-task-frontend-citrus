@@ -10,6 +10,11 @@
     padding-bottom: 60px;
   }
 
+  @media (max-width: 768px) {
+    margin-top: 0;
+    padding-bottom: 62px;
+  }
+
   &__list {
     display: flex;
   }

@@ -1,6 +1,6 @@
 .sticker {
   display: inline-flex;
-  position: absolute; 
+  position: absolute;
 
   &__text-wrapper {
     display: flex;
@@ -22,7 +22,7 @@
     background-color: #0fa3c6;
   }
 
-  &__text {    
+  &__text {
     font-size: 11px;
     font-weight: 600;
     text-transform: uppercase;
@@ -43,5 +43,5 @@
 
   &__triangle_new {
     border-left: 8px solid #0fa3c6;
-  }  
+  }
 }
