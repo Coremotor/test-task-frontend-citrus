@@ -12,6 +12,11 @@
     padding-bottom: 160px;
   }
 
+  @media (max-width: 560px) {
+    padding-top: 50px;
+    padding-bottom: 143px;
+  }
+
   &__wrapper {
     margin-bottom: 44px;
 
@@ -22,6 +27,11 @@
     @media (max-width: 768px) {
       justify-content: space-between;
       margin-bottom: 43px;
+    }
+
+    @media (max-width: 560px) {
+      align-items: center;
+      margin-bottom: 27px;
     }
   }
 
@@ -76,6 +86,12 @@
 
   &__product-card:nth-last-child(2) {
     @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &__product-card:nth-last-child(3) {
+    @media (max-width: 560px) {
       display: none;
     }
   }

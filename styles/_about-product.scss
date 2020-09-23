@@ -13,6 +13,10 @@
     margin-bottom: 75px;
   }
 
+  @media (max-width: 560px) {
+    margin-bottom: 275px;
+  }
+
   &__title {
     height: 0;
     visibility: hidden;
@@ -141,6 +145,10 @@
     @media (max-width: 768px) {
       margin-bottom: 46px;
     }
+
+    @media (max-width: 560px) {
+      margin-bottom: 32px;
+    }
   }
 
   &__desc-spec-left {
@@ -168,6 +176,7 @@
 
     @media (max-width: 560px) {
       margin-left: 4px;
+      margin-bottom: 37px;
     }
   }
 
@@ -243,6 +252,10 @@
     font-weight: 600;
     margin-left: -2px;
     margin-bottom: 16px;
+
+    @media (max-width: 560px) {
+      margin-bottom: 8px;
+    }
   }
 
   &__doc-link {
@@ -316,6 +329,10 @@
       margin-right: 0;
       margin-bottom: 47px;
     }
+
+    @media (max-width: 560px) {
+      margin-bottom: 35px;
+    }
   }
 
   &__table > tr,
@@ -339,6 +356,10 @@
 
     @media (max-width: 768px) {
       width: 50%;
+    }
+
+    @media (max-width: 560px) {
+      line-height: 19px;
     }
   }
 
@@ -381,6 +402,10 @@
     font-weight: 600;
     text-align: start;
     margin-bottom: 20px;
+
+    @media (max-width: 560px) {
+      margin-bottom: 14px;
+    }
   }
 
   &__table-link {

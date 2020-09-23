@@ -32,6 +32,10 @@
     width: 50px;
     height: 51px;
     color: #ffffff;
+
+    @media (max-width: 560px) {
+      height: 38px;
+    }
   }
 
   &__text-logo {

@@ -8,6 +8,13 @@
   background-image: url(../img/arrow_no_active.png);
 }
 
+.btn_small {
+  @media (max-width: 560px) {
+    width: 41px;
+    height: 41px;
+  }
+}
+
 .btn-active {
   background-image: url(../img/arrow_active.png);
 }
