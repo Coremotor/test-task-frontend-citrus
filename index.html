@@ -29,10 +29,13 @@
         </div>
 
         <div class="inner-column header__wrapper-phone">
-          <a class="header__link-phone" href="tel:8(8362)38-10-80"
-            >8(8362) 38-10-80</a
-          >
-          <a class="header__link-order-call" href="#">Заказать звонок</a>
+          <a class="header__link-phone" href="tel:8(8362)38-10-80">
+            <span class="header__link-phone-text">8(8362) 38-10-80</span>
+          </a>
+
+          <a class="header__link-order-call" href="#">
+            <span class="header__link-order-call-text">Заказать звонок</span>
+          </a>
         </div>
 
         <nav class="header__navigation-menu">
@@ -125,6 +128,10 @@
               <ul class="product__slider-list product__slider-inner">
                 <li class="product__slider-item">
                   <picture class="product__slider-item-img">
+                    <source
+                      media="(max-width: 560px)"
+                      srcset="./img/product_item_img_1_560.jpg"
+                    />
                     <source
                       media="(max-width: 768px)"
                       srcset="./img/product_item_img_1_768.jpg"
@@ -287,8 +294,8 @@
         </h3>
 
         <nav class="container about-product__navigation">
-          <ul class="about-product__navigation-list inner-row">
-            <li class="about-product__navigation-item">
+          <ul class="about-product__navigation-list about-product__navigation-list-wrapper">
+            <li class="about-product__navigation-item about-product__navigation-item_active">
               <a
                 href="#"
                 class="about-product__navigation-link about-product__active-link"
