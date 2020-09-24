@@ -9,6 +9,10 @@
     margin-bottom: 48px;
   }
 
+  @media (max-width: 360px) {
+    margin-bottom: 22px;
+  }
+
   &__inner {
     display: flex;
 
@@ -32,6 +36,10 @@
     @media (max-width: 560px) {
       padding: 36px 13px;
     }
+
+    @media (max-width: 360px) {
+      padding: 46px 0;
+    }
   }
 
   &__slider-inner {
@@ -49,18 +57,24 @@
     margin-bottom: 42px;
 
     @media (max-width: 1024px) {
-      margin-bottom: 35px;
+      margin-bottom: 34px;
     }
 
-    @media (max-width: 1024px) {
-      text-align: center;
+    @media (max-width: 768px) {
       line-height: 63px;
+      text-align: center;
+      margin-bottom: 36px;
     }
 
     @media (max-width: 560px) {
       line-height: 50px;
       padding: 0 20px;
       margin-bottom: 21px;
+    }
+
+    @media (max-width: 360px) {
+      line-height: 46px;
+      margin-bottom: 16px;
     }
   }
 
@@ -76,6 +90,10 @@
     @media (max-width: 768px) {
       margin-bottom: 0;
       transform: rotate(0deg);
+    }
+
+    @media (max-width: 360px) {
+      margin-left: -8px;
     }
   }
 
@@ -132,6 +150,10 @@
     @media (max-width: 768px) {
       transform: rotate(0deg);
     }
+
+    @media (max-width: 360px) {
+      margin-right: -8px;
+    }
   }
 
   &__preview {
@@ -174,6 +196,10 @@
       padding-bottom: 40px;
       margin-bottom: 15px;
     }
+
+    @media (max-width: 360px) {
+      padding: 36px 10px 25px 25px;
+    }
   }
 
   &__preview-price-spec-inner {
@@ -182,6 +208,10 @@
 
     @media (max-width: 768px) {
       flex-direction: row;
+    }
+
+    @media (max-width: 360px) {
+      flex-direction: column;
     }
   }
 
@@ -210,6 +240,14 @@
       padding-right: 38px;
       padding-bottom: 18px;
     }
+
+    @media (max-width: 360px) {
+      width: 100%;
+      justify-items: start;
+      grid-template-columns: 1fr 1fr;
+      padding: 0;
+      margin-bottom: 45px;
+    }
   }
 
   &__price {
@@ -220,6 +258,10 @@
 
     @media (max-width: 768px) {
       padding-left: 0;
+    }
+
+    @media (max-width: 360px) {
+      padding-left: 15px;
     }
   }
 
@@ -240,6 +282,10 @@
     @media (max-width: 768px) {
       padding-left: 0;
     }
+
+    @media (max-width: 360px) {
+      margin-left: 8px;
+    }
   }
 
   &__btn-order {
@@ -255,6 +301,12 @@
 
     @media (max-width: 768px) {
       justify-self: unset;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 15px;
+      padding: 11px 29px;
+      margin-top: 17px;
     }
   }
 
@@ -272,6 +324,10 @@
 
     @media (max-width: 768px) {
       padding-left: 0;
+    }
+
+    @media (max-width: 360px) {
+      margin-left: 8px;
     }
   }
 
@@ -297,6 +353,10 @@
     @media (max-width: 768px) {
       width: 51%;
     }
+
+    @media (max-width: 360px) {
+      width: 100%;
+    }
   }
 
   &__preview-spec-title {
@@ -305,6 +365,10 @@
     text-align: start;
     color: #333333;
     margin-bottom: 17px;
+
+    @media (max-width: 360px) {
+      margin-bottom: 9px;
+    }
   }
 
   &__preview-spec-table {
@@ -327,6 +391,10 @@
 
     @media (max-width: 560px) {
       padding-right: 145px;
+    }
+
+    @media (max-width: 360px) {
+      padding-right: 158px;
     }
   }
 

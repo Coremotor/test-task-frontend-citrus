@@ -17,6 +17,10 @@
     padding-bottom: 143px;
   }
 
+  @media (max-width: 360px) {
+    padding-bottom: 128px;
+  }
+
   &__wrapper {
     margin-bottom: 44px;
 
@@ -33,6 +37,10 @@
       align-items: center;
       margin-bottom: 27px;
     }
+
+    @media (max-width: 360px) {
+      align-items: flex-end;
+    }
   }
 
   &__title {
@@ -41,6 +49,12 @@
 
     @media (max-width: 768px) {
       margin-right: 0;
+    }
+
+    @media (max-width: 360px) {
+      width: 50%;
+      text-align: center;
+      line-height: 28px;
     }
   }
 
@@ -75,6 +89,12 @@
 
     @media (max-width: 768px) {
       justify-content: unset;
+    }
+  }
+
+  &__product-card:nth-child(2) {
+    @media (max-width: 360px) {
+      display: none;
     }
   }
 

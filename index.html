@@ -81,7 +81,10 @@
           <a class="bread-crumbs__link" href="#">Продукция</a>
         </li>
         <li class="bread-crumbs__item">
-          <a class="bread-crumbs__link" href="#">Металлические изделия</a>
+          <a class="bread-crumbs__link" href="#">
+            <span class="bread-crumbs__link-text">Металлические изделия</span>
+            <span class="bread-crumbs__link-text_360">Металлические изд...</span>
+          </a>
         </li>
         <li class="bread-crumbs__item">
           <a class="bread-crumbs__link" href="#">Шкивы</a>
@@ -128,6 +131,10 @@
               <ul class="product__slider-list product__slider-inner">
                 <li class="product__slider-item">
                   <picture class="product__slider-item-img">
+                    <source
+                    media="(max-width: 360px)"
+                    srcset="./img/product_item_img_1_360.jpg"
+                  />
                     <source
                       media="(max-width: 560px)"
                       srcset="./img/product_item_img_1_560.jpg"
@@ -772,29 +779,5 @@
         </div>
       </div>
     </footer>
-
-    <!-- <div class="sticker __sticker-new">
-      <div class="sticker__text-wrapper sticker__text-wrapper_new">
-        <span class="sticker__text">НОВИНКА</span>
-      </div>
-
-      <div class="sticker__triangle sticker__triangle_new"></div>
-    </div>
-
-    <div class="sticker __sticker-sale">
-      <div class="sticker__text-wrapper sticker__text-wrapper_sale">
-        <span class="sticker__text">РАСПРОДАЖА</span>
-      </div>
-
-      <div class="sticker__triangle sticker__triangle_sale"></div>
-    </div>
-
-    <div class="sticker __sticker-hit">
-      <div class="sticker__text-wrapper sticker__text-wrapper_hit">
-        <span class="sticker__text">ХИТ ПРОДАЖ</span>
-      </div>
-
-      <div class="sticker__triangle sticker__triangle_hit"></div>
-    </div> -->
   </body>
 </html>

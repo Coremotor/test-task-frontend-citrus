@@ -13,6 +13,11 @@
     width: 41px;
     height: 41px;
   }
+
+  @media (max-width: 360px) {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 .btn-active {
