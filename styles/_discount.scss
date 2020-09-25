@@ -7,23 +7,23 @@
   margin-top: -76px;
   margin-bottom: 53px;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1630px) {
     padding-left: 60px;
     padding-right: 60px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     flex-direction: column;
     padding: 26px 0;
     margin-top: -80px;
     margin-bottom: 44px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin-bottom: 49px;
   }
 
-  @media (max-width: 560px) {
+  @media (max-width: 768px) {
     padding: 25px 0;
     margin-top: -77px;
     margin-bottom: 35px;
@@ -33,19 +33,19 @@
     font-size: 30px;
     line-height: 30px;
     font-weight: 500;
-    color: #ffffff;
+    color: #fff;
     margin-bottom: 10px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1280px) {
       font-size: 25px;
       margin-bottom: 25px;
     }
 
-    @media (max-width: 560px) {
+    @media (max-width: 768px) {
       font-size: 22px;
     }
 
-    @media (max-width: 360px) {
+    @media (max-width: 560px) {
       font-size: 20px;
       margin-bottom: 22px;
     }
@@ -54,9 +54,9 @@
   &__text {
     font-size: 14px;
     font-weight: 400;
-    color: #ffffff;
+    color: #fff;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1280px) {
       display: none;
     }
   }
@@ -71,16 +71,16 @@
     border-radius: 25px;
     padding: 14px 44px;
 
-    @media (max-width: 1280px) {
+    @media (max-width: 1630px) {
       padding-right: 24px;
       padding-left: 24px;
     }
 
-    @media (max-width: 560px) {
+    @media (max-width: 768px) {
       padding: 10px 14px;
     }
 
-    @media (max-width: 360px) {
+    @media (max-width: 560px) {
       font-size: 15px;
       padding: 12px 18px;
     }
@@ -92,6 +92,6 @@
   }
 
   &__btn:active {
-    color: #000;
+    color: $mainText;
   }
 }
