@@ -9,12 +9,12 @@
 }
 
 .btn_small {
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 41px;
     height: 41px;
   }
 
-  @media (max-width: 560px) {
+  @media (max-width: 559px) {
     width: 45px;
     height: 45px;
   }

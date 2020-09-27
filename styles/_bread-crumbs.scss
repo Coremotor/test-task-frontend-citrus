@@ -6,16 +6,16 @@
     padding-top: 16px;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1279px) {
     padding-bottom: 60px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     margin-top: 0;
     padding-bottom: 62px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     background-color: $bgTable;
     padding-top: 10px;
     padding-bottom: 12px;
@@ -23,7 +23,7 @@
     margin-bottom: 40px;
   }
 
-  @media (max-width: 560px) {
+  @media (max-width: 559px) {
     padding-top: 7px;
     margin-bottom: 38px;
   }
@@ -40,7 +40,7 @@
   }
 
   &__item:last-child {
-    @media (max-width: 560px) {
+    @media (max-width: 559px) {
       display: none;
     }
   }
@@ -51,15 +51,20 @@
     border-bottom: 1px solid $secondGray;
   }
 
+  &__link:hover {
+    color: $secondRed;
+    border-bottom: 1px solid $secondRed;
+  }
+
   &__link-text_560 {
     display: none;
-    @media (max-width: 560px) {
+    @media (max-width: 559px) {
       display: inline;
     }
   }
 
   &__link-text {
-    @media (max-width: 560px) {
+    @media (max-width: 559px) {
       display: none;
     }
   }
@@ -67,6 +72,10 @@
   &__item:last-child > a {
     border-bottom: none;
     color: $mainBg;
+  }
+
+  &__item:last-child > a:hover {
+    color: $secondRed;
   }
 
   &__item:not(:last-child)::after {
@@ -77,7 +86,7 @@
   }
 
   &__item:nth-child(3)::after {
-    @media (max-width: 560px) {
+    @media (max-width: 559px) {
       display: none;
     }
   }

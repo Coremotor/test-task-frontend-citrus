@@ -5,22 +5,26 @@ body {
   font-weight: 400;
   color: $mainText;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 14px;
   }
+}
+
+button {
+  outline: none;
 }
 
 h1 {
   font-size: 50px;
   font-weight: 500;
   color: $secondText;
-  @media (max-width: 1280px) {
+  @media (max-width: 1024px) {
     font-size: 45px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 560px) {
     font-size: 40px;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 360px) {
     font-size: 30px;
   }
 }
@@ -29,13 +33,13 @@ h2 {
   font-size: 40px;
   font-weight: 500;
   color: $mainText;
-  @media (max-width: 1280px) {
+  @media (max-width: 1024px) {
     font-size: 35px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 560px) {
     font-size: 30px;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 360px) {
     font-size: 25px;
   }
 }
@@ -44,13 +48,13 @@ h3 {
   font-size: 30px;
   font-weight: 500;
   color: $mainText;
-  @media (max-width: 1280px) {
+  @media (max-width: 1024px) {
     font-size: 25px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 560px) {
     font-size: 23px;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 360px) {
     font-size: 20px;
   }
 }
@@ -61,19 +65,19 @@ h3 {
   margin: 0 auto;
 
   @media (max-width: 1630px) {
-    max-width: 1280px;
+    max-width: 1279px;
   }
-  @media (max-width: 1280px) {
-    max-width: 1024px;
+  @media (max-width: 1279px) {
+    max-width: 1023px;
   }
-  @media (max-width: 1024px) {
-    max-width: 768px;
+  @media (max-width: 1023px) {
+    max-width: 767px;
   }
-  @media (max-width: 768px) {
-    max-width: 560px;
+  @media (max-width: 767px) {
+    max-width: 559px;
     padding: 0 15px;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 559px) {
     max-width: 360px;
     padding: 0 10px;
   }
